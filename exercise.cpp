@@ -14,6 +14,10 @@ void exercises::tell_next_step(int next) {
     cout << "the next step is " << next_str << endl;
 }
 
+void exercises::add_one_more(void){
+    cout << "something ..." << endl;
+}
+
 int main() {
     exercises * a = new exercises();
     a->say_hello(5);
