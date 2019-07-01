@@ -10,4 +10,6 @@ class exercises {
 	    this->name = 34;
 	    this->age = 22;
 	}
+	void add_two_more(void);
+
 };
